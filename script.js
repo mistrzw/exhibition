@@ -219,8 +219,8 @@ var ParticlePool = (function () {
 
     // handle (re-)sizing of the canvas
     function onResize() {
-        canvas.width = canvas.clientWidth + 150;
-        canvas.height = canvas.clientHeight + 150;
+        canvas.width = canvas.clientWidth*1.1;
+        canvas.height = canvas.clientHeight*1.1;
     }
     window.onresize = onResize;
 
